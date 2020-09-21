@@ -1,0 +1,192 @@
+.small-letter p{
+  font-size: 15px;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+
+}
+.section {
+  background-color: white;
+
+}
+.text-align-center{
+  text-align: center;
+}
+hr{
+  background-color: #dddddd;
+  height: 0.2px;
+}
+text-align-left{
+  text-align: left;
+}
+.company-intro{
+
+  max-width: 650px;
+  margin: auto;
+
+
+}
+.company-intro-div{
+  border: 1px solid #b0cac7;
+  border-radius: 5px;
+
+  background: url("https://static-exp1.licdn.com/sc/h/5q92mjc5c51bjlwaj3rs9aa82");
+  background-repeat: no-repeat;
+  background-size: cover 100px ;
+
+}
+.company-logo{
+  background-color: white;
+
+  margin-top: 150px;
+  border: 1px solid #b0cac7;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.company-name {
+  margin-left: 20px;
+  padding: 10px;
+  text-align: left;
+}
+.company-name p,.company-name h4, .company-name h2{
+  margin: 10px 0;
+
+}
+.change-to-grey{
+  color: #557571;
+
+}
+.btn-table tr td{
+  padding: 5px;
+}
+.btn-blue{
+  height: 30px;
+  width: 100px;
+  margin: auto;
+  background-color: #07689f;
+  padding: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+.btn-blue a{
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+
+}
+
+.navigation{
+  width:100%;
+  max-width: 650px;
+
+}
+.navigation{
+  margin-top: 15px;
+}
+ .nav-items{
+  margin-bottom: 0;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #07689f;
+  font-weight: bold;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+.nav-items:hover{
+  background-color: #d9ecf2;
+  border-bottom:  2px solid #07689f;
+
+}
+.nav-items a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Home section */
+.nav2-table{
+  width: 100%;
+  max-width: 650px;
+  text-align: center;
+  cursor: pointer;
+}
+.post1 , .images div , .documents div , .videos div , .jobs-div {
+    border: 1px solid #b0cac7;
+    min-height: 300px;
+}
+ .images div , .documents div , .videos div, .jobs-div{
+   margin: auto;
+   padding: 30px;
+ }
+.nav2 , .post-table , .post-content {
+  margin-left: 20px;
+}
+.grey-btn{
+  font-weight: bold;
+  border-radius: 25px;
+  background-color: #e8e8e8;
+  color: black;
+  padding: 5px;
+  margin-right: 5px;
+}
+.grey-btn:hover{
+
+  background-color: #797a7e;
+  color: white;
+}
+.grey-btn a{
+  color: inherit;
+  text-decoration: none;
+}
+
+/* about us section */
+
+.about-us-div {
+  margin-left: 20px;
+}
+.about-table tr td {
+  width: 200px;
+  height: 40px;
+}
+
+/* location section css */
+
+.location-div p{
+  margin: 7px 0;
+}
+
+/* employees section */
+.employees-div{
+  margin-left: 20px;
+}
+.employee{
+  max-width: 350px;
+}
+.btn-original{
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #07689f;
+  text-decoration: none;
+  max-width: 350px;
+
+  font-weight: bold;
+  color: #07689f;
+}
+.btn-original:hover{
+  background-color: #07689f;
+  color: white;
+  cursor: pointer;
+}
+.btn-original a{
+  text-decoration: none;
+  color:inherit;
+}
+@media only screen and (max-width: 600px) {
+  .company-name .nav2 , .post-table , .post-content .about-us-div .btn-original .employees-div{
+     margin: 2px;
+   }
+}
